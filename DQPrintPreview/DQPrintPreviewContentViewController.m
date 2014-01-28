@@ -166,7 +166,12 @@
 -(UIViewController *)controllerForPage:(int)page
 {
     if (page >= self.preview.pageCount)
-        return [self blankPostController];
+    {
+        if (self.spineLocation == UIPageViewControllerSpineLocationMid)
+            return [self blankPostController];
+        else
+            return nil;
+    }
     if (page < 0)
         return [self blankController];
     
