@@ -220,7 +220,31 @@ CGSize scaleSize(CGSize size, CGFloat scale)
     [self animateChangeToOrientation:orientation duration:duration];
 }
 
-#pragma mark - Crappy IBActions.
+#pragma mark - Temporary IBActions
+
+-(void)showDocumentWithNameInBundle:(NSString *)docname
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:docname ofType:@"pdf"];
+    MTPDF *pdf = [MTPDF PDFWithContentsOfFile:path];
+    
+    // Assume that we already have a preview object. We're just going to change the pdf of it.
+//    self.preview = [[Preview alloc] init];
+    self.preview.pdf = pdf;
+    NSLog(@"%@\n%@", self.preview.pdf, self.contentVC.preview.pdf);
+    [self reloadPreview];
+}
+
+-(IBAction)showSlidesDocument:(id)sender
+{
+    [self showDocumentWithNameInBundle:@"370D1"];
+}
+
+-(IBAction)showDocumentDocument:(id)sender
+{
+    [self showDocumentWithNameInBundle:@"UIViewController"];
+}
+
+#pragma mark - Crappy IBActions - To be moved into some subclass later.
 
 -(IBAction)setPortrait:(id)sender
 {

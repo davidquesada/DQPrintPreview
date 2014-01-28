@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="jWa-DC-3YP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="jWa-DC-3YP">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Print Preview View Controller-->
         <scene sceneID="4">
             <objects>
                 <viewController id="2" customClass="DQPrintPreviewViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CuC-TH-bcU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ts3-46-Ifb"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5">
-                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </view>
@@ -26,6 +31,19 @@
                         </barButtonItem>
                         <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="LS7-qk-eJK"/>
                         <barButtonItem title="Item" id="9Hm-Oo-02l"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="kki-qM-fZH"/>
+                        <barButtonItem title="Slides" id="hOx-9B-m6N">
+                            <color key="tintColor" red="0.99607849120000003" green="0.56902208457037373" blue="0.2078431547" alpha="1" colorSpace="deviceRGB"/>
+                            <connections>
+                                <action selector="showSlidesDocument:" destination="2" id="sON-xH-bBN"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem title="Document" id="OWV-pC-YYM">
+                            <color key="tintColor" red="0.20516857499999999" green="0.65556406970000003" blue="0.026217233390000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="showDocumentDocument:" destination="2" id="mnE-5b-ZdM"/>
+                            </connections>
+                        </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="gA0-iT-pO0"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -58,7 +76,7 @@
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>

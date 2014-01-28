@@ -82,6 +82,15 @@
 {
     if (!self.doubleSided)
         [self setViewControllers:@[[self controllerForPage:page]] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
+    else
+    {
+        int a = page, b = page;
+        if (page % 2 == 1)
+            b++;
+        else
+            a--;
+        [self setViewControllers:@[[self controllerForPage:a], [self controllerForPage:b]] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
+    }
 }
 
 -(Preview *)preview
@@ -158,6 +167,8 @@
 {
     if (page >= self.preview.pageCount)
         return [self blankPostController];
+    if (page < 0)
+        return [self blankController];
     
     DQPrintPreviewPageViewController *controller = [[DQPrintPreviewPageViewController alloc] init];
     [controller setPDF:self.preview virtualPage:page];

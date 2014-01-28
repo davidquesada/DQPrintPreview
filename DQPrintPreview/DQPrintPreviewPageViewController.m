@@ -51,13 +51,17 @@
     // TODO: Calculate a good value for PixelsPerPoint, depending on the sizes of stuff.
     UIImage *image = [p imageWithPixelsPerPoint:2];
     
-    UIImageView *view = [[UIImageView alloc] init];
-    view.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
-    view.frame = self.view.bounds;
+    UIImageView *view = (id)[self.view viewWithTag:47];
+    if (!view)
+    {
+        view = [[UIImageView alloc] init];
+        view.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+        view.frame = self.view.bounds;
+        view.contentMode = UIViewContentModeScaleAspectFit;
+        view.tag = 47;
+        [self.view insertSubview:view atIndex:0];
+    }
     view.image = image;
-    view.contentMode = UIViewContentModeScaleAspectFit;
-    view.tag = 47;
-    [self.view insertSubview:view atIndex:0];
     //[self.view addSubview:view];
 }
 

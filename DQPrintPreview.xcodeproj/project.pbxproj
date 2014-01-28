@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63613C9818983B18007CD749 /* UIViewController.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 63613C9718983B18007CD749 /* UIViewController.pdf */; };
 		63AC0CA2189203990090EBB3 /* 370D1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 63AC0CA1189203990090EBB3 /* 370D1.pdf */; };
 		B29144FB188E1CF60071AAAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29144FA188E1CF60071AAAD /* UIKit.framework */; };
 		B29144FD188E1CF60071AAAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29144FC188E1CF60071AAAD /* Foundation.framework */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63613C9718983B18007CD749 /* UIViewController.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = UIViewController.pdf; sourceTree = "<group>"; };
 		63AC0CA1189203990090EBB3 /* 370D1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 370D1.pdf; sourceTree = "<group>"; };
 		B29144F6188E1CF60071AAAD /* DQPrintPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQPrintPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29144FA188E1CF60071AAAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -108,6 +110,7 @@
 		B2914500188E1CF60071AAAD /* DQPrintPreview */ = {
 			isa = PBXGroup;
 			children = (
+				63613C9718983B18007CD749 /* UIViewController.pdf */,
 				63AC0CA1189203990090EBB3 /* 370D1.pdf */,
 				B2914523188E1F1F0071AAAD /* MTPDF */,
 				B2914509188E1CF60071AAAD /* AppDelegate.h */,
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63AC0CA2189203990090EBB3 /* 370D1.pdf in Resources */,
+				63613C9818983B18007CD749 /* UIViewController.pdf in Resources */,
 				B2914505188E1CF60071AAAD /* InfoPlist.strings in Resources */,
 				B291450D188E1CF60071AAAD /* Default.png in Resources */,
 				B291450F188E1CF60071AAAD /* Default@2x.png in Resources */,
