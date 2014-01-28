@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63AC0CA2189203990090EBB3 /* 370D1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 63AC0CA1189203990090EBB3 /* 370D1.pdf */; };
+		B29144FB188E1CF60071AAAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29144FA188E1CF60071AAAD /* UIKit.framework */; };
+		B29144FD188E1CF60071AAAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29144FC188E1CF60071AAAD /* Foundation.framework */; };
+		B29144FF188E1CF60071AAAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29144FE188E1CF60071AAAD /* CoreGraphics.framework */; };
+		B2914505188E1CF60071AAAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2914503188E1CF60071AAAD /* InfoPlist.strings */; };
+		B2914507188E1CF60071AAAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2914506188E1CF60071AAAD /* main.m */; };
+		B291450B188E1CF60071AAAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B291450A188E1CF60071AAAD /* AppDelegate.m */; };
+		B291450D188E1CF60071AAAD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B291450C188E1CF60071AAAD /* Default.png */; };
+		B291450F188E1CF60071AAAD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B291450E188E1CF60071AAAD /* Default@2x.png */; };
+		B2914511188E1CF60071AAAD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2914510188E1CF60071AAAD /* Default-568h@2x.png */; };
+		B2914514188E1CF60071AAAD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2914512188E1CF60071AAAD /* MainStoryboard_iPhone.storyboard */; };
+		B2914517188E1CF60071AAAD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2914515188E1CF60071AAAD /* MainStoryboard_iPad.storyboard */; };
+		B291451A188E1CF60071AAAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2914519188E1CF60071AAAD /* ViewController.m */; };
+		B2914522188E1E810071AAAD /* DQPrintPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2914521188E1E810071AAAD /* DQPrintPreviewViewController.m */; };
+		B2914526188E1F1F0071AAAD /* MTPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = B2914525188E1F1F0071AAAD /* MTPDF.m */; };
+		B2914529188E1FE50071AAAD /* DQPrintPreviewContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2914528188E1FE50071AAAD /* DQPrintPreviewContentViewController.m */; };
+		B291452E188E218A0071AAAD /* NSDate+MTDates.m in Sources */ = {isa = PBXBuildFile; fileRef = B291452B188E21890071AAAD /* NSDate+MTDates.m */; };
+		B291452F188E218A0071AAAD /* NSDateComponents+MTDates.m in Sources */ = {isa = PBXBuildFile; fileRef = B291452D188E218A0071AAAD /* NSDateComponents+MTDates.m */; };
+		B2914534188E227A0071AAAD /* DQPrintPreviewPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2914533188E22790071AAAD /* DQPrintPreviewPageViewController.m */; };
+		B2914537188E2EC50071AAAD /* Preview.m in Sources */ = {isa = PBXBuildFile; fileRef = B2914536188E2EC40071AAAD /* Preview.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63AC0CA1189203990090EBB3 /* 370D1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 370D1.pdf; sourceTree = "<group>"; };
+		B29144F6188E1CF60071AAAD /* DQPrintPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQPrintPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B29144FA188E1CF60071AAAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B29144FC188E1CF60071AAAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B29144FE188E1CF60071AAAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2914502188E1CF60071AAAD /* DQPrintPreview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DQPrintPreview-Info.plist"; sourceTree = "<group>"; };
+		B2914504188E1CF60071AAAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2914506188E1CF60071AAAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2914508188E1CF60071AAAD /* DQPrintPreview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DQPrintPreview-Prefix.pch"; sourceTree = "<group>"; };
+		B2914509188E1CF60071AAAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B291450A188E1CF60071AAAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B291450C188E1CF60071AAAD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B291450E188E1CF60071AAAD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B2914510188E1CF60071AAAD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B2914513188E1CF60071AAAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2914516188E1CF60071AAAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2914518188E1CF60071AAAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2914519188E1CF60071AAAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2914520188E1E810071AAAD /* DQPrintPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPrintPreviewViewController.h; sourceTree = "<group>"; };
+		B2914521188E1E810071AAAD /* DQPrintPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPrintPreviewViewController.m; sourceTree = "<group>"; };
+		B2914524188E1F1F0071AAAD /* MTPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPDF.h; sourceTree = "<group>"; };
+		B2914525188E1F1F0071AAAD /* MTPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPDF.m; sourceTree = "<group>"; };
+		B2914527188E1FE50071AAAD /* DQPrintPreviewContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPrintPreviewContentViewController.h; sourceTree = "<group>"; };
+		B2914528188E1FE50071AAAD /* DQPrintPreviewContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPrintPreviewContentViewController.m; sourceTree = "<group>"; };
+		B291452A188E21890071AAAD /* NSDate+MTDates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+MTDates.h"; path = "MTDates/NSDate+MTDates.h"; sourceTree = "<group>"; };
+		B291452B188E21890071AAAD /* NSDate+MTDates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+MTDates.m"; path = "MTDates/NSDate+MTDates.m"; sourceTree = "<group>"; };
+		B291452C188E218A0071AAAD /* NSDateComponents+MTDates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDateComponents+MTDates.h"; path = "MTDates/NSDateComponents+MTDates.h"; sourceTree = "<group>"; };
+		B291452D188E218A0071AAAD /* NSDateComponents+MTDates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDateComponents+MTDates.m"; path = "MTDates/NSDateComponents+MTDates.m"; sourceTree = "<group>"; };
+		B2914532188E22790071AAAD /* DQPrintPreviewPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPrintPreviewPageViewController.h; sourceTree = "<group>"; };
+		B2914533188E22790071AAAD /* DQPrintPreviewPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQPrintPreviewPageViewController.m; sourceTree = "<group>"; };
+		B2914535188E2EC40071AAAD /* Preview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Preview.h; path = DQPrintPreview/Preview.h; sourceTree = SOURCE_ROOT; };
+		B2914536188E2EC40071AAAD /* Preview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Preview.m; path = DQPrintPreview/Preview.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B29144F3188E1CF60071AAAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29144FB188E1CF60071AAAD /* UIKit.framework in Frameworks */,
+				B29144FD188E1CF60071AAAD /* Foundation.framework in Frameworks */,
+				B29144FF188E1CF60071AAAD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B29144EB188E1CF60071AAAD = {
+			isa = PBXGroup;
+			children = (
+				B2914500188E1CF60071AAAD /* DQPrintPreview */,
+				B29144F9188E1CF60071AAAD /* Frameworks */,
+				B29144F7188E1CF60071AAAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B29144F7188E1CF60071AAAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B29144F6188E1CF60071AAAD /* DQPrintPreview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B29144F9188E1CF60071AAAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B29144FA188E1CF60071AAAD /* UIKit.framework */,
+				B29144FC188E1CF60071AAAD /* Foundation.framework */,
+				B29144FE188E1CF60071AAAD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2914500188E1CF60071AAAD /* DQPrintPreview */ = {
+			isa = PBXGroup;
+			children = (
+				63AC0CA1189203990090EBB3 /* 370D1.pdf */,
+				B2914523188E1F1F0071AAAD /* MTPDF */,
+				B2914509188E1CF60071AAAD /* AppDelegate.h */,
+				B291450A188E1CF60071AAAD /* AppDelegate.m */,
+				B2914512188E1CF60071AAAD /* MainStoryboard_iPhone.storyboard */,
+				B2914515188E1CF60071AAAD /* MainStoryboard_iPad.storyboard */,
+				B2914518188E1CF60071AAAD /* ViewController.h */,
+				B2914519188E1CF60071AAAD /* ViewController.m */,
+				B2914501188E1CF60071AAAD /* Supporting Files */,
+				B2914535188E2EC40071AAAD /* Preview.h */,
+				B2914536188E2EC40071AAAD /* Preview.m */,
+				B2914520188E1E810071AAAD /* DQPrintPreviewViewController.h */,
+				B2914521188E1E810071AAAD /* DQPrintPreviewViewController.m */,
+				B2914527188E1FE50071AAAD /* DQPrintPreviewContentViewController.h */,
+				B2914528188E1FE50071AAAD /* DQPrintPreviewContentViewController.m */,
+				B2914532188E22790071AAAD /* DQPrintPreviewPageViewController.h */,
+				B2914533188E22790071AAAD /* DQPrintPreviewPageViewController.m */,
+			);
+			path = DQPrintPreview;
+			sourceTree = "<group>";
+		};
+		B2914501188E1CF60071AAAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2914502188E1CF60071AAAD /* DQPrintPreview-Info.plist */,
+				B2914503188E1CF60071AAAD /* InfoPlist.strings */,
+				B2914506188E1CF60071AAAD /* main.m */,
+				B2914508188E1CF60071AAAD /* DQPrintPreview-Prefix.pch */,
+				B291450C188E1CF60071AAAD /* Default.png */,
+				B291450E188E1CF60071AAAD /* Default@2x.png */,
+				B2914510188E1CF60071AAAD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2914523188E1F1F0071AAAD /* MTPDF */ = {
+			isa = PBXGroup;
+			children = (
+				B291452A188E21890071AAAD /* NSDate+MTDates.h */,
+				B291452B188E21890071AAAD /* NSDate+MTDates.m */,
+				B291452C188E218A0071AAAD /* NSDateComponents+MTDates.h */,
+				B291452D188E218A0071AAAD /* NSDateComponents+MTDates.m */,
+				B2914524188E1F1F0071AAAD /* MTPDF.h */,
+				B2914525188E1F1F0071AAAD /* MTPDF.m */,
+			);
+			path = MTPDF;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B29144F5188E1CF60071AAAD /* DQPrintPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B291451D188E1CF60071AAAD /* Build configuration list for PBXNativeTarget "DQPrintPreview" */;
+			buildPhases = (
+				B29144F2188E1CF60071AAAD /* Sources */,
+				B29144F3188E1CF60071AAAD /* Frameworks */,
+				B29144F4188E1CF60071AAAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DQPrintPreview;
+			productName = DQPrintPreview;
+			productReference = B29144F6188E1CF60071AAAD /* DQPrintPreview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B29144ED188E1CF60071AAAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "David Quesada";
+			};
+			buildConfigurationList = B29144F0188E1CF60071AAAD /* Build configuration list for PBXProject "DQPrintPreview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B29144EB188E1CF60071AAAD;
+			productRefGroup = B29144F7188E1CF60071AAAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B29144F5188E1CF60071AAAD /* DQPrintPreview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B29144F4188E1CF60071AAAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AC0CA2189203990090EBB3 /* 370D1.pdf in Resources */,
+				B2914505188E1CF60071AAAD /* InfoPlist.strings in Resources */,
+				B291450D188E1CF60071AAAD /* Default.png in Resources */,
+				B291450F188E1CF60071AAAD /* Default@2x.png in Resources */,
+				B2914511188E1CF60071AAAD /* Default-568h@2x.png in Resources */,
+				B2914514188E1CF60071AAAD /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2914517188E1CF60071AAAD /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B29144F2188E1CF60071AAAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2914507188E1CF60071AAAD /* main.m in Sources */,
+				B291450B188E1CF60071AAAD /* AppDelegate.m in Sources */,
+				B291451A188E1CF60071AAAD /* ViewController.m in Sources */,
+				B2914522188E1E810071AAAD /* DQPrintPreviewViewController.m in Sources */,
+				B2914526188E1F1F0071AAAD /* MTPDF.m in Sources */,
+				B2914529188E1FE50071AAAD /* DQPrintPreviewContentViewController.m in Sources */,
+				B291452E188E218A0071AAAD /* NSDate+MTDates.m in Sources */,
+				B291452F188E218A0071AAAD /* NSDateComponents+MTDates.m in Sources */,
+				B2914534188E227A0071AAAD /* DQPrintPreviewPageViewController.m in Sources */,
+				B2914537188E2EC50071AAAD /* Preview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2914503188E1CF60071AAAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2914504188E1CF60071AAAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2914512188E1CF60071AAAD /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2914513188E1CF60071AAAD /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2914515188E1CF60071AAAD /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2914516188E1CF60071AAAD /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B291451B188E1CF60071AAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B291451C188E1CF60071AAAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B291451E188E1CF60071AAAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DQPrintPreview/DQPrintPreview-Prefix.pch";
+				INFOPLIST_FILE = "DQPrintPreview/DQPrintPreview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B291451F188E1CF60071AAAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DQPrintPreview/DQPrintPreview-Prefix.pch";
+				INFOPLIST_FILE = "DQPrintPreview/DQPrintPreview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B29144F0188E1CF60071AAAD /* Build configuration list for PBXProject "DQPrintPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B291451B188E1CF60071AAAD /* Debug */,
+				B291451C188E1CF60071AAAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B291451D188E1CF60071AAAD /* Build configuration list for PBXNativeTarget "DQPrintPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B291451E188E1CF60071AAAD /* Debug */,
+				B291451F188E1CF60071AAAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B29144ED188E1CF60071AAAD /* Project object */;
+}
